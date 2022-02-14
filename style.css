@@ -51,9 +51,17 @@ nav {
 
 .menuItem {
   margin-left: 50px;
+  padding: 3px;
   cursor: pointer;
   color: lightgray;
+  border: 2px solid lightgray;
   font-weight: 400;
+  border-radius: 8px;
+  transition: transform 1s;
+}
+
+.menuItem:hover {
+  transform: scale(1.5);
 }
 
 .slider {
@@ -104,6 +112,7 @@ nav {
 }
 
 .sliderPrice {
+  padding: 3px;
   position: absolute;
   top: 10%;
   left: 10%;
@@ -117,6 +126,7 @@ nav {
 }
 
 .buyButton {
+  padding: 4px;
   position: absolute;
   top: 50%;
   right: 10%;
@@ -581,6 +591,7 @@ footer {
   }
 
   .newSeason {
+    display: block;
     margin-top: 100vh;
     flex-direction: column;
   }
